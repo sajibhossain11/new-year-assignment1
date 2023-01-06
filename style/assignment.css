@@ -1,6 +1,6 @@
 *{
     margin: 0  ;
-    padding: 0;
+    
 }
 .header-container{
     background-image: url('../images/banner/banner2.png');
@@ -41,13 +41,16 @@
 
 /* start main  */
 .failure{
-    margin: 120px 200px 0 300px;
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    text-align: center;
 
 }
 .failure-container{
     display: flex;
     gap: 100px;
     align-items: center;
+    margin: 10px 200px 0 800px;
 
 }
 .failure-pic{
@@ -75,4 +78,55 @@
 }
 .failure-description ol{
     margin-left: 25px;
+}
+/* 2nd section  */
+.plan{
+    margin-top: 130px;
+    text-align: center;
+}
+.plan-title{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 100px;
+    margin-top: 300px;
+
+}
+.plan-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 600px 0 600px;
+}
+.skill img{
+    margin-bottom: 30px;
+}
+.skill h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.skill p{
+    font-size: 25px;
+}
+.lenier{
+    background-image: url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: 1100px;
+    background-size: auto;
+    margin-top: 200px;
+    margin-left: 800px;
+}
+.lenier h1{
+    color: #FFFFFF;
+    font-size: 45px;
+    
+}
+.callnow{
+    width: 200px;
+    height: 60px;
+    background-color: #FD6E0A;
+    color: #FFFFFF;
+    font-size: large;
+    border: none;
 }
