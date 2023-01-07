@@ -32,10 +32,12 @@
     float: left;
     background-color: #FD6E0A;
     border: 0;
-    height: 50PX;
-    width: 120px;
+    height: 55PX;
+    width: 140px;
     float: right;
     color: #FFFFFF;
+    font-size: 20px;
+    border-radius: 5px;
     
 }
 
